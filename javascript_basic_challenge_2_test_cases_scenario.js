@@ -68,9 +68,15 @@ function test_cases_scenario(){
 					console.log = originalConsoleLog;
 				  });
 			
-                  it;
-				  it;
-				  it;
+                   it('should return an array with values [0, 1, 2]', function() {
+		    const result = shape.out1();
+		    expect(result).to.deep.equal([0, 1, 2]); // Este test debería fallar porque el resultado real es []
+		  });
+		
+		  it('should log the values 0, 1, and 2 in order', function() {
+		    shape.out1();
+		    expect(loggedValues).to.deep.equal([0, 1, 2]); // Este test debería pasar porque los valores de consola son correctos
+		  });
 					
                 });
 
