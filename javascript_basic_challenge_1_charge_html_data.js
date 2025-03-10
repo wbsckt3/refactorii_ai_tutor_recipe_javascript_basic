@@ -1,6 +1,6 @@
 // Cargar data al HTML:
 // El código que deseas agregar al textarea
-const code = `const shape = {
+/*const code = `const shape = {
 	  out1() {
 	    
 	  },
@@ -13,9 +13,9 @@ const code = `const shape = {
 // Test cases:
 console.log(shape.out1());
 console.log(shape.out2());
-`;
+`; */
 
-/*const code = `
+const code = `
 function greet(name) {
     console.log(`Hello, ${name}!`);
 }
@@ -23,7 +23,7 @@ function greet(name) {
 // Test cases:
 greet('Alice'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
-`; */
+`; 
 
 document.getElementById('code-editor').value = code;
 	
