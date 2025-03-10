@@ -1,16 +1,50 @@
 // Cargar data al HTML:
 // El código que deseas agregar al textarea
 
+/*
+const shape = {
+    out1() {
+        return this.name;
+    },
+    out2() {
+        return this.age;
+    },
+    name: 'Refactorii',
+    age: 21,
+};
+
+// Llamadas a console.log
+console.log(shape.out1()); // Debe imprimir 'Refactorii'
+console.log(shape.out2()); // Debe imprimir 21
+*/
 
 const code = `
 function greet(name) {
-    console.log(`Hello, ${name}!`);
+    console.log(\`Hello, \${name}!\`);
 }
 
 // Test cases:
 greet('Alice'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
-`; 
+`;
+
+/*const calculator = {
+    name: 'Basic Calculator',
+    version: 1.0,
+
+    add(a, b) {
+        return a + b;
+    },
+
+    multiply(a, b) {
+        return a * b;
+    }
+};
+
+// Test cases:
+console.log(calculator.add(2, 3)); // Debe imprimir 5
+console.log(calculator.multiply(4, 5)); // Debe imprimir 20
+*/
 
 document.getElementById('code-editor').value = code;
 	
