@@ -1,19 +1,6 @@
 // Cargar data al HTML:
 // El código que deseas agregar al textarea
-/*const code = `const shape = {
-	  out1() {
-	    
-	  },
-	  out2() {
-	    
-	  },
-	  name: 'Refactorii',
-	  age: 21,
-};
-// Test cases:
-console.log(shape.out1());
-console.log(shape.out2());
-`; */
+
 
 const code = `
 function greet(name) {
