@@ -18,7 +18,7 @@ console.log(shape.out1()); // Debe imprimir 'Refactorii'
 console.log(shape.out2()); // Debe imprimir 21
 */
 
-const code = `
+/*const code = `
 function greet(name) {
     console.log(\`Hello, \${name}!\`);
 }
@@ -26,9 +26,9 @@ function greet(name) {
 // Test cases:
 greet('Alice'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
-`;
+`;*/
 
-/*const calculator = {
+const calculator = {
     name: 'Basic Calculator',
     version: 1.0,
 
@@ -44,7 +44,6 @@ greet('Bob'); // Debe imprimir "Hello, Bob!"
 // Test cases:
 console.log(calculator.add(2, 3)); // Debe imprimir 5
 console.log(calculator.multiply(4, 5)); // Debe imprimir 20
-*/
 
 document.getElementById('code-editor').value = code;
 	
