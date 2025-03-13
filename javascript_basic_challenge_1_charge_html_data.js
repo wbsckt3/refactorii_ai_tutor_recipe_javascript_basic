@@ -47,7 +47,7 @@ console.log(calculator.add(2, 3)); // Debe imprimir 5
 console.log(calculator.multiply(4, 5)); // Debe imprimir 20
 `; */
 
-document.getElementById('code-editor').value = codeKoToRefactor;
+// document.getElementById('code-editor').value = codeKoToRefactor;
 	
 // titulo del challenge:
 const title = `Exercise 1: Basic Syntax`;
