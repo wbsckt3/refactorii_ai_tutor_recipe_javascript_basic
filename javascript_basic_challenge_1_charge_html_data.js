@@ -24,7 +24,7 @@ function greet(name) {
 }
 
 // Test cases:
-greet('Alice'); // Debe imprimir "Hello, Alice!"
+greet('Mat'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
 `;
 
