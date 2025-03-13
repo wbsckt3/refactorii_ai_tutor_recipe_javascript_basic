@@ -18,7 +18,7 @@ console.log(shape.out1()); // Debe imprimir 'Refactorii'
 console.log(shape.out2()); // Debe imprimir 21
 */
 
-const codeKoToRefactor = `
+/* const codeKoToRefactor = `
 function greet(name) {
     console.log(\`Hello, \${name}!\`);
 }
@@ -26,7 +26,7 @@ function greet(name) {
 // Test cases:
 greet('Mat'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
-`;
+`; */
 
 /*const codeKoToRefactor = `
 const calculator = {
