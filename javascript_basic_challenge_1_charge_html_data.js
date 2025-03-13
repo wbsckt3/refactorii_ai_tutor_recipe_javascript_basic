@@ -27,7 +27,7 @@ function greet(name) {
 greet('Alice'); // Debe imprimir "Hello, Alice!"
 greet('Bob'); // Debe imprimir "Hello, Bob!"
 `;*/
-
+const code = `
 const calculator = {
     name: 'Basic Calculator',
     version: 1.0,
@@ -44,7 +44,7 @@ const calculator = {
 // Test cases:
 console.log(calculator.add(2, 3)); // Debe imprimir 5
 console.log(calculator.multiply(4, 5)); // Debe imprimir 20
-
+`;
 document.getElementById('code-editor').value = code;
 	
 // titulo del challenge:
